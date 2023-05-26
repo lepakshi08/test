@@ -1,0 +1,6 @@
+-----string reverse order:
+
+a=input("enter your name:")
+print(a[::-1])
+for i in range(len(a)-1,-1, -1):
+    print(a[i],end="")
